@@ -1,0 +1,154 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3789566400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches the browser",
+            "match": {
+              "location": "LoginSteps.user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3559086800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeClass(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "to login and check the price of mobilephone",
+        "description": "",
+        "id": "flipkart-ecom-site;to-login-and-check-the-price-of-mobilephone",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 492357400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the login popup and clicks login",
+            "match": {
+              "location": "LoginSteps.user_close_the_login_popup_and_clicks_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 570931500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username and password and clicks login",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_clicks_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "jegan.sivaraman@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "8970740907"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2608926000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user search mobiles in search tab and clicks search",
+            "match": {
+              "location": "Searchsteps.user_search_mobiles_in_search_tab_and_clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919780700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects the first link in new tab",
+            "match": {
+              "location": "Productlinkstep.user_selects_the_first_link_in_new_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user prints the price and mobile name in excel",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flipkart"
+          },
+          {
+            "name": "@ecom"
+          },
+          {
+            "name": "@datatc01"
+          }
+        ]
+      }
+    ],
+    "name": "flipkart ecom site",
+    "description": "",
+    "id": "flipkart-ecom-site",
+    "keyword": "Feature",
+    "uri": "file:flipkart.feature",
+    "tags": [
+      {
+        "name": "@flipkart",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@ecom",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 11
+        }
+      }
+    ]
+  }
+]
